@@ -7,8 +7,8 @@ import os
 os.environ["OPENAI_API_KEY"]
 
 # define prompt helper
-max_input_size = 4096
-num_output = 4096  # number of output tokens
+max_input_size = 8192
+num_output = 2048  # number of output tokens
 max_chunk_overlap = 0.1
 
 prompt_helper = PromptHelper(max_input_size, num_output, max_chunk_overlap)
