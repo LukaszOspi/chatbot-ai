@@ -51,7 +51,7 @@ iface = gr.Interface(fn=chatbot,
                      title="Custom-trained AI Chatbot")
 
 # comment out after 1st run if training docs aren't changing
-# index = construct_index("docs")
+index = construct_index("docs")
 
 # switch to True for sharing the app with other users online (URL shown in the console)
 iface.launch(share=False)
